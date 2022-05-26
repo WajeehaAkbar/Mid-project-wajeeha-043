@@ -1,0 +1,611 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    p,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+    
+    a,
+    ul {
+        text-decoration: none !important;
+        list-style: none !important;
+    }
+    /* Navbar */
+    
+    .logo {
+        padding: 20px;
+        padding-left: 60px;
+    }
+    
+    .nav-item1 {
+        font-size: 17px;
+        font-weight: bold;
+        color: black !important;
+        padding-left: 40px !important;
+        padding-right: 26px !important;
+    }
+    
+    .nav-link:hover {
+        color: #ce3e4c!important;
+        border-bottom: 2px #ce3e4c !important;
+    }
+    
+    .for-m {
+        margin-left: 56px !important;
+    }
+    /* welcome about */
+    
+    .welcome-about {
+        padding-top: 145px;
+        padding-bottom: 145px;
+        margin-top: 115px;
+        background: url(../assest/pictures/black3.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+    
+    .main-h {
+        color: white;
+        font-size: 63px;
+        font-weight: 600;
+        margin-top: 8px;
+    }
+    
+    .main-hf {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .main-p {
+        margin-top: 34px;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 52px;
+    }
+    
+    .more-me {
+        padding: 13px;
+        color: white;
+        border: 2px solid;
+        border-radius: 6px;
+        padding: 17px;
+    }
+    
+    .more-me:hover {
+        text-decoration: none !important;
+        background: #ce3e4c;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 17px;
+        transition: all 0.20s ease-in-out;
+    }
+    
+    .about-p {
+        border-radius: 302px;
+        height: 338px;
+        width: 355px;
+        margin-top: 41px;
+        margin-left: 115px;
+    }
+    /* hobbies */
+    
+    .hobbies {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    
+    .hob-h {
+        margin-bottom: 40px;
+        font-size: 15px;
+        color: grey;
+    }
+    
+    .hob-main {
+        font-weight: bold;
+        margin-bottom: 23px;
+    }
+    
+    .image-h {
+        height: 362px;
+    }
+    
+    .overlay {
+        background: #ce3e4c!important;
+        border-radius: 15px;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    
+    .card-image {
+        transition: all 0.5s ease;
+    }
+    
+    .card-image:hover .overlay {
+        opacity: 0.8;
+    }
+    
+    .content {
+        color: white;
+        font-weight: bolder;
+        margin-left: 38px;
+        margin-top: 151px;
+    }
+    /* more button */
+    
+    .more {
+        color: white;
+        background: #ce3e4c;
+        padding: 25px;
+        font-weight: bold;
+        border-radius: 6px;
+        margin-left: 584px;
+        margin-bottom: 50px;
+    }
+    
+    .more:hover {
+        color: black;
+        transition: 0.2s ease;
+        background-color: transparent;
+        border: 2px solid black;
+        border-radius: 6px;
+    }
+    
+    .margin-h {
+        height: 3px;
+        color: midnightblue;
+        margin-top: 50px;
+        margin-right: 123px;
+        margin-left: 123px;
+        margin-bottom: 50px;
+    }
+    /* skils */
+    
+    .skills {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+    
+    .icon-s {
+        font-size: 41px;
+        margin-left: 40px;
+        margin-bottom: 30px;
+        color: white;
+        padding-top: 51px;
+    }
+    
+    .description {
+        font-size: 13px;
+        margin-left: 32px;
+        margin-top: 23px;
+        color: white;
+        padding-bottom: 59px;
+        padding-top: 18px;
+    }
+    
+    .text {
+        font-size: 24px;
+        margin-left: 31px;
+        color: white;
+    }
+    
+    .bg-clr {
+        background: #e2a599 !important;
+        transition: all 0.50s ease-out;
+    }
+    
+    .bg-clr-2 {
+        background: #715f69 !important;
+    }
+    
+    .bg-clr-3 {
+        background: #90acd1 !important;
+    }
+    
+    .card-1:hover {
+        transition-timing-function: ease-out;
+        transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+        transform: translateY(0);
+    }
+    /* contact short-intro */
+    
+    .contact {
+        background: #ce3e4c;
+        padding: 75px;
+        color: white;
+        margin-top: 107px;
+    }
+    
+    .contact-m {
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .contact-text {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .contact-info {
+        display: flex;
+        padding: 32px;
+    }
+    
+    .number {
+        margin-left: -16px;
+        margin-right: 95px;
+        font-weight: 700;
+    }
+    
+    .email-c {
+        font-weight: 700;
+    }
+    
+    .web-c {
+        margin-left: 147px;
+        font-weight: 700;
+    }
+    
+    .h-100 {
+        border: none !important;
+    }
+    /* footer */
+    
+    .footer {
+        margin-top: 50px;
+        padding: 50px;
+    }
+    
+    .footer-f {
+        color: grey;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    
+    .icon-list {
+        text-align: center;
+        padding: 30px;
+        font-size: 30px;
+    }
+    
+    .icon-clr {
+        color: #715f69;
+    }
+    
+    .icon-clr:hover {
+        color: #715f69 !important;
+    }
+    
+    .icon-m {
+        margin-right: 20px;
+    }
+    
+    .copy-right {
+        text-align: center;
+        color: grey;
+        font-weight: 600;
+        margin-top: 40px;
+    }
+    /* personality page */
+    
+    .personalities {
+        background: #e2a59952;
+    }
+    
+    .w-100 {
+        height: 425px !important;
+    }
+    
+    .personalities {
+        margin-top: 115px;
+        background: #e2a59952;
+        padding-top: 106px;
+    }
+    
+    .section-p {
+        margin-bottom: 90px;
+        text-align: center;
+        font-weight: 900;
+        font-family: initial;
+    }
+    
+    .celeb-n {
+        font-size: 38px;
+        font-family: cursive;
+    }
+    
+    .celeb-p {
+        font-size: 14px;
+        font-family: cursive;
+    }
+    
+    .will {
+        margin-bottom: 80px;
+    }
+    
+    .megan {
+        margin-bottom: 80px;
+    }
+    
+    .jichang {
+        margin-bottom: 80px;
+    }
+    
+    .megan-margin {
+        margin-top: 73px;
+    }
+    /* cities */
+    
+    .cities {
+        margin-top: 190px;
+    }
+    
+    .img-fluid {
+        width: 516px!important;
+        height: 153% !important;
+        border-radius: 43px;
+    }
+    
+    .img-fluid2 {
+        height: 177% !important;
+    }
+    
+    .img-fluid3 {
+        height: 190% !important;
+        margin-top: 1rem !important;
+    }
+    
+    .text-arrangmnt {
+        margin-left: 665px;
+        margin-top: -394px !important;
+    }
+    
+    .tokyo-margin {
+        margin-left: 62px;
+    }
+    
+    .card-title {
+        font-size: 31px;
+        font-family: cursive;
+        font-weight: 900;
+    }
+    
+    .card-text {
+        width: 528px;
+    }
+    
+    .card-body {
+        margin-top: 75px;
+    }
+    
+    .margin-toronto {
+        margin-top: 135px;
+    }
+    
+    .cities-card {
+        border: none !important;
+    }
+    /* tourist points */
+    
+    .tourist-points {
+        margin-top: 140px;
+    }
+    
+    .tour-text {
+        width: 100%;
+        font-family: ui-monospace;
+        font-size: 15px;
+    }
+    
+    .tourisit-title {
+        margin-top: 36px !important;
+        padding-bottom: 14px;
+    }
+    
+    .body-bg {
+        background: #e9967aa1;
+        height: 296px;
+        margin-top: 0px !important;
+        color: white;
+    }
+    
+    .body-bg2 {
+        background: #7aa9e99e;
+    }
+    
+    .body-bg3 {
+        background: #19875473;
+    }
+    
+    .body-bg4 {
+        background: #ce3e4c69;
+    }
+    
+    .body-bg5 {
+        background: #41464b82;
+    }
+    
+    .body-bg6 {
+        background: #9c27b066;
+    }
+    
+    .card-w {
+        width: 94%;
+    }
+    /* contact2 */
+    
+    .contact2 {
+        margin-top: 8%;
+        color: white;
+        background: url(../assest/pictures/blacky.jpg);
+        height: 882px;
+    }
+    
+    .form-submit {
+        margin-bottom: 19px;
+        display: block;
+        width: 101%;
+        height: 56px;
+        font-style: oblique;
+        border-radius: 9px;
+        padding-left: 20px;
+    }
+    
+    #Description {
+        height: 148px;
+        width: 101%;
+        font-style: oblique;
+        padding-left: 21px;
+        border-radius: 9px;
+        padding-top: 9px;
+        margin-top: -15px;
+    }
+    
+    .main-contact {
+        font-size: 52px;
+        font-family: emoji;
+        text-align: center;
+        padding: 108px;
+        margin-bottom: -40px
+    }
+    
+    .getting-in-touch {
+        font-family: emoji;
+        font-size: 39px;
+        padding-bottom: 16px;
+    }
+    
+    .more-of-contact {
+        font-family: emoji;
+        padding: 20px;
+    }
+    
+    .info {
+        font-size: 20px;
+    }
+    
+    .icon-list2 {
+        padding: 20px;
+        color: white !important;
+        font-size: 32px;
+    }
+    
+    .icon-clr2 {
+        color: white;
+    }
+    
+    .icon-clr2:hover {
+        color: white;
+    }
+    /* back to top */
+    
+    .top {
+        /* position: fixed;
+        overflow-y: scroll;
+        overflow-x: hidden; */
+    }
+    
+    .arrow {
+        float: right;
+        width: 39px;
+        border: 2px solid #e91eb6;
+        border-radius: 38px;
+        margin-right: 36px;
+        margin-top: -89px;
+    }
+    /* media query */
+    
+    @media only screen and (max-width: 999px) {
+        .more {
+            width: 100%;
+            margin-left: 34%;
+        }
+        .more .col-sm-12 {
+            margin-left: 201px;
+        }
+        .number {
+            max-width: 100%;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        .web-c {
+            margin-left: 20px;
+        }
+        .number {
+            margin-left: -21px;
+        }
+    }
+    
+    @media only screen and (max-width: 980px) {
+        .about-p {
+            margin-left: 45px;
+        }
+    }
+    
+    @media only screen and (max-width: 840px) {
+        .about-p {
+            margin-left: 7px;
+        }
+    }
+    
+    @media only screen and (max-width:1093) and (min-width:999px) {
+        .nav-item1 {
+            padding-left: 21px;
+        }
+    }
+    /* @media only screen and (max-width: 770px) {
+
+        .card-title .col-sm-12 {
+            margin-top: 53% !important;
+        }
+        .card-body .col-sm-12 {
+            margin-left: -612px !important;
+        }
+        .card-text .col-sm-12 {
+            width: 56% !important;
+        }
+        .img-fluid .col-sm-12 {
+            max-width: 85% !important;
+        }
+    } */
+    
+    @media only screen and (max-width:884) {
+        .text-arrangmnt {
+            margin-left: 68px;
+            margin-top: 158px;
+        }
+        .card-text {
+            width: 305%;
+        }
+        .card-title {
+            width: 128%;
+        }
+    }
+    
+    @media only screen and (max-width:768) {
+        .col-md-6 {
+            width: 44%;
+        }
+    }
